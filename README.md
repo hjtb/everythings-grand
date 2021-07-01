@@ -60,12 +60,16 @@ I began with the mobile design as I find it easier to expand from the smaller sc
 Below you can see the wireframes of each individual page at the different screen sizes
 
 ### Landing Page Wireframe
-[Landing Page Mobile Wireframe](assets/wireframes/landing_page.pdf)
+[Landing Page Wireframe](assets/wireframes/landing_page.pdf)
+
 ### Services Page Wireframe
+[Services Page Wireframe](assets/wireframes/services_page.pdf)
 
 ### Practitioners Page Wireframe
+[Practitioners Page Wireframe](assets/wireframes/practitioners_page.pdf)
 
 ### Contact Page Wireframe
+[Contact Page Wireframe](assets/wireframes/contact_page.pdf)
 
 
 

@@ -63,13 +63,13 @@ Below you can see the wireframes of each individual page at the different screen
 [Landing Page Wireframe](assets/wireframes/landing_page.pdf)
 
 ### Services Page Wireframe
-[Services Page Wireframe](assets/wireframes/services_page.pdf)
+[Services Page Wireframe](assets/wireframes/services.pdf)
 
 ### Practitioners Page Wireframe
-[Practitioners Page Wireframe](assets/wireframes/practitioners_page.pdf)
+[Practitioners Page Wireframe](assets/wireframes/practitioners.pdf)
 
 ### Contact Page Wireframe
-[Contact Page Wireframe](assets/wireframes/contact_page.pdf)
+[Contact Page Wireframe](assets/wireframes/contact.pdf)
 
 
 

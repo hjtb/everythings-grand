@@ -53,11 +53,21 @@ The site is laid out in a very simple easy to navigate structure with info on th
 
 ## **Wireframes**
 
-### Desktop Wireframe
+I utilised the wireframing tool Balsamic [Balsamic](https://balsamiq.com/wireframes/) to create my wireframes
+I decided to make 4 pages for the different sections of the site with a customised bootstrap navbar at the top of the page
+I began with the mobile design as I find it easier to expand from the smaller screen
 
-### Tablet Wireframe
+Below you can see the wireframes of each individual page at the different screen sizes
 
-### Mobile Wireframe
+### Landing Page Wireframe
+
+### Services Page Wireframe
+
+### Practitioners Page Wireframe
+
+### Contact Page Wireframe
+
+
 
 ## **Features**
 

@@ -78,6 +78,9 @@ Below you can see the wireframes of each individual page at the different screen
 
 #### Navigation
 
+For the navbar I utilised bootstrap 5 so it would be responsive. 
+I found the icon for the company logo that is used on the navbar on Pixabay.
+
 #### Landing Page
 
 #### Hero Image

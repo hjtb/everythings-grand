@@ -1,14 +1,15 @@
-# **Everything is Grand Counselling**
+# **Everything's Grand Counselling**
 
 ## **Wireframe**
 
 ## **Description** 
 
-Everything is Grand Counselling is where people come when they need;
+Everything's Grand Counselling is where people come when they need;
 
 * The ear of a trusted confidant
 * The wisdom of someone who has walked a road similar to yours 
 * A skilled professional to explain how natural it is to struggle with our own thoughts and emotions
+* A mediator in relationships to make sense of the situation
 
 The site is laid out in a very simple easy to navigate structure with info on the practitioners and the  services offered
 

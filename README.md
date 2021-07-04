@@ -79,6 +79,7 @@ Below you can see the wireframes of each individual page at the different screen
 #### Navigation
 
 For the navbar I utilised bootstrap 5 for responsiveness. I used the template with the image and text on this page - https://getbootstrap.com/docs/5.0/components/navbar/
+
 I found the icon for the company logo that is used on the navbar on Pixabay. I downloaded this one - https://pixabay.com/vectors/cranium-head-abstract-art-thought-3244100/?download
 
 #### Landing Page

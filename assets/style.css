@@ -1,14 +1,27 @@
 #hero_image{
     height:500px;
     width:100%;
+    margin-top:10px;
+    animation-name: grey_hero;
+    animation-duration: 5s;
 }
+
+@keyframes grey_hero {
+    from{margin-top:100px;}
+    to{margin-top:50px;}
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+  }
 
 #hero_title{
     text-align:center;
+    margin-top:10px;
     font-size:6vw;
     text-shadow: 0.1rem 0.1rem #A5AACA;
     font-family: 'Cinzel Decorative', cursive;
     margin:50px;
+    animation-name: grey_hero;
+    animation-duration: 5s;
 }
 
 #enquiry{

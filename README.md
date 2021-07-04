@@ -46,6 +46,9 @@ The site is laid out in a very simple easy to navigate structure with info on th
 
 #### Fonts
 
+I searched through the google fonts library to find suitable fonts for the title and went for the [Cinzel Decorative](https://fonts.google.com/specimen/Cinzel+Decorative?preview.text=Everything%27s%20Grand&preview.text_type=custom&preview.size=29#standard-styles) font for the page title as it's easy to read and matches the text in the image.
+I paired this font with the [Lato](https://fonts.google.com/specimen/Lato?preview.text=Everything%27s%20Grand&preview.text_type=custom&preview.size=29&query=lato) font as the two have a similar design that complement each other nicely throughout the page.
+
 #### Icons
 
 #### Colors

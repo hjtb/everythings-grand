@@ -1,3 +1,6 @@
+#hero{
+    background-image: ;
+}
 #hero_image{
     height:500px;
     width:100%;
@@ -41,4 +44,8 @@
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin-left: 20px;
+}
+
+#general_info{
+
 }

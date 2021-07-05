@@ -89,9 +89,12 @@ I found the icon for the company logo that is used on the navbar on Pixabay. I d
 
 #### Hero Image
 
+I decided on a hero image for the top of the site pages and took inspiration from the love running animation of the hero image to create a subtle animateion on the hero image each time the page opens. The hero image is symbolic and represents the goal of the practice which is to lift people up from their problems. The words within the hands are descriptive of the practice and the practitioners.
+Above the image we have the page title which informs the user of where they are
+
 #### Services Section
 
-#### Counsellors Section
+#### Practitioners Section
 
 #### Testimonials
 

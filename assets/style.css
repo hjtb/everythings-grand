@@ -70,6 +70,10 @@
     margin:5%;
 }
 
+#services_card{
+    text-align: right;
+}
+
 footer{
     height: 100px;
     text-align: center;

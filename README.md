@@ -72,10 +72,6 @@ Below you can see the wireframes of each individual page at the different screen
 ### Practitioners Page Wireframe
 [Practitioners Page Wireframe](assets/wireframes/practitioners.pdf)
 
-### Contact Page Wireframe
-[Contact Page Wireframe](assets/wireframes/contact.pdf)
-
-
 
 ## **Features**
 

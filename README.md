@@ -88,10 +88,10 @@ Bootstrap Modal - https://getbootstrap.com/docs/5.0/components/modal/
 
 #### Hero Image
 
-I decided on a hero image for the top of the site pages and took inspiration from the love running animation of the hero image to create a subtle animateion on the hero image each time the page opens. The hero image is symbolic and represents the goal of the practice which is to lift people up from their problems. The words within the hands are descriptive of the practice and the practitioners.
-I used a free image editing tool called Gimp to remove the white background of the hero image so I could clear space for a background video.
+I decided on a hero image for the top of the site pages and took inspiration from the love running animation of the hero image to create a subtle animation on the hero image each time the page opens. The hero image is symbolic and represents the goal of the practice which is to lift people up from their problems. The words within the hands are descriptive of the practice and the practitioners.
+I used a free image editing tool called Gimp to remove the white background of the hero image so I could clear space for a background image.
 Above the image we have the page title which informs the user of which page they are on.
-For the background image I went for a bright 
+For the background image I went for a bright mountain top scene. The blue sky with the sun peaking through some hazy clouds
 
 #### Services Section
 

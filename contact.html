@@ -39,14 +39,43 @@
                         <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="practitioners.html">Practitioners</a></li>
                         <li class="nav-item active"><a class="nav-link active" aria-current="contact page" href="contact.html">Contact</a></li>
-                        <li><a class="nav-link" href="#"><span class="glyphicon glyphicon-user"></span>Enquiry Form</a></li>
-                        <li><a  class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</a></li>
+                        <li><a type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#enquiry_form" data-bs-whatever="enquiry@egcounselling.ie">Enquiry Form</a></li>
 
                     </ul>
 
                 </div>
             </div>
-          </nav>
+
+            <div class="modal fade" id="enquiry_form" tabindex="-1" aria-labelledby="enquiry form" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="enquiry_title">New Enquiry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                                <button class="btn btn-outline-secondary"  data-bs-dismiss="modal">Send Enquiry</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
 
     </header>
 

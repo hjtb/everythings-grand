@@ -21,10 +21,10 @@
         <nav class="navbar mb-0 navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
 
-
                 <a class="navbar-brand my-0" href="index.html">
                     <img src="assets/images/everythings_grand_icon.png" alt="icon with the sihouette of a human head with a heart shaped brain inside" width="45" height="50" class="d-inline-block align-text-top">
                 </a>
+
                 <div id="nav_title" class="d-none d-sm-block">
                     <span class="navbar-brand mb-0 h1">Everything's Grand</span>
                 </div>
@@ -34,95 +34,123 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
-
                     <ul class="navbar-nav mb-0">
 
                         <li class="nav-item"><a class="nav-link active" aria-current="index page"  href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="practitioners.html">Practitioners</a></li>
                         <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li><a class="d-flex nav-link" href="#">Enquiry Form</a></li>
+                        <li><a type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#enquiry_form" data-bs-whatever="enquiry@egcounselling.ie">Enquiry Form</a></li>
 
                     </ul>
-
                 </div>
             </div>
-          </nav>
+
+            <div class="modal fade" id="enquiry_form" tabindex="-1" aria-labelledby="enquiry form" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="enquiry_title">New Enquiry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-outline-secondary"  data-bs-dismiss="modal">Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <section id="hero">
+    <div class="container-fluid">
 
-        <div id="hero_background" class="m-auto">
-            <img src="assets/images/everythings_grand_background_image.jpg" alt="Image of snowcapped mountains with the sun peeking out over the clouds">
-        </div>
+        <section id="hero">
 
-        <div id="hero_title">
-            Everything's Grand Counselling
-        </div>
+            <div id="hero_background" class="m-auto">
+                <img src="assets/images/everythings_grand_background_image.jpg" alt="Image of snowcapped mountains with the sun peeking out over the clouds">
+            </div>
 
-        <div id="hero_image">
-            <img src="assets/images/everythings_grand_hero_image.png" alt="Image of silhouttes two hands opened with pleasant adjectives written on them" width="100%">
-        </div>
+            <div id="hero_title">
+                Everything's Grand Counselling
+            </div>
 
-    </section>
+            <div id="hero_image">
+                <img src="assets/images/everythings_grand_hero_image.png" alt="Image of silhouttes two hands opened with pleasant adjectives written on them" width="100%">
+            </div>
 
-    <section id="general_info">
-        <div class="container-fluid">
+        </section>
 
-            <h1>Everything's Grand Counselling, we're here for you</h1>
-            <h1>when you need....</h1>
-            <h4>The ear of a trusted confidant</h4>
-            <h4> A mediator in relationships to make sense of the situation</h4> 
-            <h4> The wisdom of someone who has walked a road similar to yours</h4> 
-            <h4> A skilled professional to explain how natural it is to struggle with our own thoughts and emotions</h4> 
-            
-        </div>
+        <section id="general_info">
+            <div class="container">
+
+                <h1>Everything's Grand Counselling, we're here for you</h1>
+                <h1>when you need....</h1>
+                <h4>The ear of a trusted confidant</h4>
+                <h4> A mediator in relationships to make sense of the situation</h4> 
+                <h4> The wisdom of someone who has walked a road similar to yours</h4> 
+                <h4> A skilled professional to explain how natural it is to struggle with our own thoughts and emotions</h4> 
                 
+            </div>
+                    
 
-            
-    </section>
+                
+        </section>
 
-    <section id="specifics">
+        <section id="specifics">
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
 
-            <div class="col">
-                <div id="services_card" class="card text-grey h-100">
-                    <img src="assets/images/services.jpg" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Services</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <div class="col">
+                    <div id="services_card" class="card text-grey h-100">
+                        <img src="assets/images/services.png" class="card-img h-100 p-3" alt="image of two hands shaking with ">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Services</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col">
-                <div id="practitioners_card" class="card text-grey h-100">
-                    <img src="assets/images/practitioners.png" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Practitioners</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <div class="col">
+                    <div id="practitioners_card" class="card text-grey h-100">
+                        <img src="assets/images/practitioners.png" class="card-img h-100 py-3" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Practitioners</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col">
-                <div id="testimonials_card" class="card text-grey h-100">
-                    <img src="assets/images/testimonials.png" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h5 class="card-title">Testimonials and Contact Us</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text">Last updated 3 mins ago</p>
+                <div class="col">
+                    <div id="testimonials_card" class="card text-grey h-100">
+                        <img src="assets/images/testimonials.png" class="card-img h-100 p-3" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Testimonials and Contact Us</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
 
-        </div>
+        </section>
 
-    </section>
-
+    </div>
     <footer>
         <ul>
             <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>

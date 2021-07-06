@@ -61,12 +61,12 @@
 #general_info{
     font-family: 'Lato', sans-serif;
     margin-top: 100px;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: aliceblue;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 #specifics{
+    font-family: 'Lato', sans-serif;
     margin:5%;
 }
 

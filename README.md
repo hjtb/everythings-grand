@@ -85,6 +85,9 @@ For the navbar I utilised bootstrap 5 for responsiveness. I used the template wi
 
 I found the icon for the company logo that is used on the navbar on Pixabay. I downloaded this one - https://pixabay.com/vectors/cranium-head-abstract-art-thought-3244100/?download
 
+I used a Bootstrap modal for the enquiry form I used the varying modal content template here as it had the email field and a text area for the users enquiry
+Bootstrap Modal - https://getbootstrap.com/docs/5.0/components/modal/ 
+
 #### Landing Page
 
 #### Hero Image

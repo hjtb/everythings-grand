@@ -1,14 +1,20 @@
-#hero_background{
-    position:relative;
-    top: 0;
-    left: 0;
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+#logo{
+    height: 12px;
+}
+
+/* #hero-background{
     overflow: hidden;
-    width:150%;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
-} 
+}  */
 
-#hero_image{
+/* #hero-image{
     position:absolute;
     top: 400px;
     left: 0px;
@@ -19,7 +25,7 @@
     animation-duration: 5s;
 }
 
-#hero_title{
+#hero-title{
     position: absolute;
     top: 100px;
     width: 100%;
@@ -28,50 +34,25 @@
     font-size: 6vw;
     text-shadow: 0.1rem 0.1rem #A5AACA;
     font-family: 'Cinzel Decorative', cursive;
-}
+} */
 
-@keyframes grey_hero {
+/* @keyframes grey_hero {
     from{margin-top:100px;
         opacity: 0.5;}
 
     to{margin-top:0px;
         opacity: 1;}
-  }
+  } */
 
-
-#enquiry{
-    float: right;
-}
-
-.navbar-brand{
-    font-family: 'Lato', sans-serif;
-}
-
-#nav_title{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-}
-
-.nav-link{
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-#general_info{
+#general-info{
     font-family: 'Lato', sans-serif;
     margin-top: 100px;
     margin-left: 6vw;
     margin-right: 6vw;
 }
 
-#specifics{
-    font-family: 'Lato', sans-serif;
-    margin:5%;
-}
-
-#services_card{
-    text-align: right;
+#services{
+    
 }
 
 footer{

@@ -1,7 +1,5 @@
 # **Everything's Grand Counselling**
 
-## **Wireframe**
-
 ## **Description** 
 
 Everything's Grand Counselling is where people come when they need;
@@ -53,33 +51,17 @@ I paired this font with the [Lato](https://fonts.google.com/specimen/Lato?previe
 
 #### Colors
 
+Using the [coolers](https://coolors.co/) colour pallette generator I found a colour scheme that I thought would suit the page. I went for contrasting colours of light and dark shades of blue and grey with a hint of bright orange to create an eye catching contrast.
+Here is the Pallette I went for - [colour pallette](https://coolors.co/000000-14213d-fca311-e5e5e5-ffffff)
+
 #### Structure
-
-## **Wireframes**
-
-I utilised the wireframing tool Balsamic [Balsamic](https://balsamiq.com/wireframes/) to create my wireframes
-I decided to make 4 pages for the different sections of the site with a customised bootstrap navbar at the top of the page
-I began with the mobile design as I find it easier to expand from the smaller screen
-
-Below you can see the wireframes of each individual page at the different screen sizes
-
-### Landing Page Wireframe
-[Landing Page Wireframe](assets/wireframes/landing_page.pdf)
-
-### Services Page Wireframe
-[Services Page Wireframe](assets/wireframes/services.pdf)
-
-### Practitioners Page Wireframe
-[Practitioners Page Wireframe](assets/wireframes/practitioners.pdf)
 
 
 ## **Features**
 
 #### Navigation
 
-For the navbar I utilised bootstrap 5 for responsiveness. I used the template with the image and text on this page - https://getbootstrap.com/docs/5.0/components/navbar/
-
-I found the icon for the company logo that is used on the navbar on Pixabay. I downloaded this one - https://pixabay.com/vectors/cranium-head-abstract-art-thought-3244100/?download
+I created the logo for the page on [logomakr.com](https://logomakr.com)
 
 I used a Bootstrap modal for the enquiry form I used the varying modal content template here as it had the email field and a text area for the users enquiry
 Bootstrap Modal - https://getbootstrap.com/docs/5.0/components/modal/ 

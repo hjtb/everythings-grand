@@ -30,15 +30,15 @@ The site is laid out in a very simple easy to navigate structure with info on th
 
 ### **User Stories**
 
-* As a user:
-  * I want to immediately understand the purpose of the site
-  * I want to be able to freely and easily navigate the site
-  * I want to clearly see the services offered by the practice
-  * I want to be able to query prices of these services
-  * I want to be able to find information on the practitioners that offer these services and their qualifications
-  * I want to easily find contact details of the practice and practitioners
-  * I want to read/see testimonials of previous/current clients
-  * I want to find links to their social media so I can see their following
+* As a user I want to immediately understand the purpose of the site
+* As a user I want to be able to freely and easily navigate the site
+* As a user I want to clearly see the services offered by the practice
+* As a user I want to be able to query prices of these services
+* As a user I want to be able to find information on the practitioners that offer these services and their qualifications
+* As a user I want to easily find contact details of the practice and practitioners
+* As a user I want to read/see testimonials of previous/current clients
+* As a user I want to find links to their social media so I can see their following
+
 
 ### **Design Choices**
 

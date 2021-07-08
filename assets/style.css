@@ -11,9 +11,9 @@ nav{
 
 
 header{
+    justify-content: center;
     margin: 0.5rem;
-    padding: 0;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     box-shadow: 4px 4px 5px 0px;
 }
 
@@ -22,11 +22,11 @@ header{
     grid-template-columns: repeat(8, 12.5%);
     grid-gap: 10px;
     width:100%;
-    background-color: white; /* if the browser does not support gradients */
-    background-image: linear-gradient(to right, #e5e5e5, #FCA311 );
+    background-color: white;
 }
 
 .logo{
+    margin-left: 2rem;
     height: 5rem;
 }
 
@@ -39,7 +39,7 @@ header{
 }
 
 .navigation a i:hover{
-    color: #ffffff;
+    color: #FCA311;
 }
 
 #enquiry{

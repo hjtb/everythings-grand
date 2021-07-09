@@ -1,73 +1,25 @@
-nav{
-    padding: 5px;
-    @media (min-width: 400px){
-        padding:10px;
-    }
-    @media (min-width: 800px){
-        padding:20px;
-    }
+*{
+    box-sizing: border-box;
 }
 
-
-
 header{
-    justify-content: center;
+    background-color: black;
     margin: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 5px 0px;
 }
 
-.navigation{
-    display:grid;
-    grid-template-columns: repeat(8, 12.5%);
-    grid-gap: 10px;
-    width:100%;
-    background-color: white;
+.navbar{
+    color:black;
+    background-color: transparent;
 }
 
-.logo{
-    margin-left: 2rem;
-    height: 5rem;
-}
-
-.navigation a{
-    align-self: center;
-    color: #14213D;
+.navbar-item:hover{
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-size: 2rem;
-}
-
-.navigation a i:hover{
     color: #FCA311;
 }
 
-#enquiry{
-    grid-column: 7 / 8;
-}
 
-.navigation a i{
-    font-size: 30px;
-    color: #14213D;
-}
-
-/* #hero-background{
-    overflow: hidden;
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-}  */
-
-/* #hero-image{
-    position:absolute;
-    top: 400px;
-    left: 0px;
-    width:100%;
-    margin-top:0px;
-    margin-bottom: 100px;
-    animation-name: grey_hero;
-    animation-duration: 5s;
-}
 
 #hero-title{
     position: absolute;
@@ -78,15 +30,15 @@ header{
     font-size: 6vw;
     text-shadow: 0.1rem 0.1rem #A5AACA;
     font-family: 'Cinzel Decorative', cursive;
-} */
+}
 
-/* @keyframes grey_hero {
+@keyframes grey-hero {
     from{margin-top:100px;
         opacity: 0.5;}
 
     to{margin-top:0px;
         opacity: 1;}
-  } */
+  }
 
 #general-info{
     font-family: 'Lato', sans-serif;
@@ -105,4 +57,3 @@ footer li{
     padding:1%;
     margin:8%;
 }
-

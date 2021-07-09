@@ -23,91 +23,145 @@
     <link rel="icon" href="assets/images/eglogo.png"/>
 
     <title>Everythings Grand Counselling</title>
+
 </head>
 
 <body>
 
     <header>
-        <nav class="navigation">
-            <a href="#"><img class="logo" src="assets/images/eglogo.png" alt="Ying and yang symbol with a black E in the white section and a white G in the dark section"></a>
-            <a href="#"><i class="fas fa-home">  Home</i></a>
-            <a href="#services"><i class="fas fa-hands-helping">  Services</i></a>
-            <a href="#practitioners"><i class="fas fa-user-tie">  Practitioners</i></a>
-            <a id="enquiry" href="#"><i class="fas fa-info">  Enquiry Form</i></a>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            
+            <div class="container-fluid">
+                <a class="navbar-brand my-0" href="index.html">
+                    <img src="assets/images/eglogo.png" alt="icon with the sihouette of a human head with a heart shaped brain inside" width="45" height="50" class="d-inline-block align-text-top">
+                </a>
+
+                <div id="nav-title" class="d-none d-sm-block">
+                    <span class="navbar-brand mb-0 h1">Everything's Grand</span>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mb-0 d-flex">
+
+                        <li class="nav-item active">
+                            <a class="nav-link active" aria-current="index page"  href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#practitioners">Practitioners</a>
+                        </li>
+                        <li class="nav-item flex-column">
+                            <a type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#enquiry-form" data-bs-whatever="enquiry@egcounselling.ie">Enquiry Form</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="modal fade" id="enquiry-form" tabindex="-1" aria-labelledby="enquiry form" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="enquiry-title">New Enquiry</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="col-form-label">Email:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-outline-secondary"  data-bs-dismiss="modal">Send Enquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     
     <main>
-        <div class="container">
 
-            <section id="hero">
-                <div class="container-item">
-                    <div id="hero-background" class="m-auto">
-                        <img src="assets/images/everythings_grand_background_image.jpg" alt="Image of snowcapped mountains with the sun peeking out over the clouds">
-                    </div>
+        <section id="hero">
 
-                    <div id="hero-title">
-                        Everything's Grand Counselling
-                    </div>
+            <div id="hero-background">
+                <img src="assets/images/everythings-grand-background-image.jpg" alt="Image of snowcapped mountains with the sun peeking out over the clouds">
+            </div>
 
-                    <div id="hero-image">
-                        <img src="assets/images/everythings_grand_hero_image.png" alt="Image of silhouttes two hands opened with pleasant adjectives written on them" width="100%">
-                    </div>
-                </div>
-            </section>
+            <div id="hero-title">
+                Everything's Grand Counselling
+            </div>
 
-            <section id="general-info">
-                <div class="container-item">
-                    <h1>Everything's Grand Counselling, we're here for you</h1>
-                    <h1>when you need....</h1>
-                    <h4>The ear of a trusted confidant</h4>
-                    <h4> A mediator in relationships to make sense of the situation</h4> 
-                    <h4> The wisdom of someone who has walked a road similar to yours</h4> 
-                    <h4> A skilled professional to explain how natural it is to struggle with our own thoughts and emotions</h4>
-                </div>
-            </section>
+            <div id="hero-image">
+                <img src="assets/images/everythings-grand-hero-image.png" alt="Image of silhouttes two hands opened with pleasant adjectives written on them" width="100%">
+            </div>
 
-            <section id="services">
-                <div class="container-item">
-                    <div>
-                        <h2>Relationship Counselling</h2> 
-                    </div>
+        </section>
 
-                    <div>
-                        <h2>Mental Health Services</h2> 
-                    </div>
+        <section id="general-info">
+            <div class="container-item">
+                <h1>Everything's Grand Counselling, we're here for you</h1>
+                <h1>when you need....</h1>
+                <h4>The ear of a trusted confidant</h4>
+                <h4> A mediator in relationships to make sense of the situation</h4> 
+                <h4> The wisdom of someone who has walked a road similar to yours</h4> 
+                <h4> A skilled professional to explain how natural it is to struggle with our own thoughts and emotions</h4>
+            </div>
+        </section>
 
-                    <div>
-                        <h2>Cognitive Behavioural Therapy</h2>
-                    </div>
-
-                    <div>
-                        <h2>Logotherapy and Alternative Therapies</h2>
-                    </div>
-                </div>
-            </section>
-        
-            <section id="practitioners">
-
+        <section id="services">
+            <div class="container-item">
                 <div>
-                    <h2>Dr.Robert Frankl</h2>
-                </div>
-                
-                <div>
-                    <h2>Mrs.Eimear O' Shaughnessy</h2>
+                    <h2>Relationship Counselling</h2> 
                 </div>
 
                 <div>
-                    <h2>Dr.Raj Tolle</h2>
+                    <h2>Mental Health Services</h2> 
                 </div>
 
                 <div>
-                    <h2>Ms.Aya Nsekera</h2>
+                    <h2>Cognitive Behavioural Therapy</h2>
                 </div>
 
-            </section>
+                <div>
+                    <h2>Logotherapy and Alternative Therapies</h2>
+                </div>
+            </div>
+        </section>
+    
+        <section id="practitioners">
 
-        </div>
+            <div>
+                <h2>Dr.Robert Frankl</h2>
+            </div>
+            
+            <div>
+                <h2>Mrs.Eimear O' Shaughnessy</h2>
+            </div>
+
+            <div>
+                <h2>Dr.Raj Tolle</h2>
+            </div>
+
+            <div>
+                <h2>Ms.Aya Nsekera</h2>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>

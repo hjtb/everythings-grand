@@ -9,18 +9,26 @@ header{
     box-shadow: 4px 4px 5px 0px;
 }
 
+main{
+    background: #14213D;
+
+}
 .navbar-brand{
     color:#000000;
     font-family:'Cinzel Decorative', cursive;
+    text-shadow: 0.1rem 0.1rem #A5AACA;
+
 }
 
 .navbar-brand:hover{
-    color:#000000;
+    color:#FCA311;
+
 }
 
 a.nav-link{
     color:#000000;
     font-family: 'Lato', sans-serif;
+    text-shadow: 0.1rem 0.1rem #A5AACA;
 
 }
 
@@ -45,25 +53,71 @@ a.nav-link:hover{
 #hero-title{
     width: 100%;
     text-align: center;
-    margin:0px;
-    font-size: 6vw;
+    margin:10px;
+    font-size: 6vh;
     text-shadow: 0.1rem 0.1rem #A5AACA;
     font-family: 'Cinzel Decorative', cursive;
 }
 
-@keyframes grey-hero {
-    from{margin-top:100px;
-        opacity: 0.5;}
+#hero-image{
+    margin-bottom:100px;
+    animation: move-hero 5s;
+}
 
-    to{margin-top:0px;
-        opacity: 1;}
-  }
+@keyframes move-hero {
+    from {
+        margin-top: 100px;
+        margin-bottom:0px;
+        opacity: 0.5;
+    }
+    to {
+        margin-top: 0px;
+        margin-bottom:100px;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #hero-title {
+        font-size: 8vh;
+    }
+    #general-info{
+        position: absolute;
+        bottom:0px;
+        left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #hero-title {
+        font-size: 10vh;
+    }
+}
 
 #general-info{
     font-family: 'Lato', sans-serif;
-    margin-top: 100px;
-    margin-left: 6vw;
-    margin-right: 6vw;
+    font-size: 3vh;
+    text-shadow: 0.1rem 0.1rem #000000;
+    color: #e5e5e5;
+    width: 100%;
+}
+
+#general-info li{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#info-title{
+    font-size: 4vh;
+}
+
+#services{
+    color: #e5e5e5;
+    text-shadow: 0.1rem 0.1rem #000000;
+}
+
+#practitioners{
+    color: #e5e5e5;
+    text-shadow: 0.1rem 0.1rem #000000;
 }
 
 footer{
@@ -75,4 +129,13 @@ footer li{
     display:inline;
     padding:1%;
     margin:8%;
+    font-size: 6vh;
+}
+
+footer li a{
+    color: #14213D;
+}
+
+footer li a:hover{
+    color: #FCA311;
 }

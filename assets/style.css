@@ -1,9 +1,7 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-image: black;
-}
+
 header{
     background-color: rgb(233, 230, 230);
     margin: 0.5rem;
@@ -18,22 +16,31 @@ header{
 
 .navbar-brand:hover{
     color:#000000;
-    font-family:'Cinzel Decorative', cursive;
 }
 
 a.nav-link{
     color:#000000;
+    font-family: 'Lato', sans-serif;
+
 }
 
 a.nav-link:hover{
     color:#FCA311;
 }
 
-.custom-toggler.navbar-toggler {
-    border-color:grey;
-    background: url(https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-01-512.png) center;
+.modal-header{
+    background-color: #e5e5e5;
+    color: #14213D;
 }
 
+.hero-background{
+    background-image: url("images/everythings-grand-background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+}
 
 #hero-title{
     width: 100%;
@@ -42,11 +49,6 @@ a.nav-link:hover{
     font-size: 6vw;
     text-shadow: 0.1rem 0.1rem #A5AACA;
     font-family: 'Cinzel Decorative', cursive;
-}
-
-@media (min-width: 576px){
-    #hero-image 
-    background-attachment: fixed;
 }
 
 @keyframes grey-hero {

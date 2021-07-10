@@ -5,18 +5,35 @@ body{
     background-image: black;
 }
 header{
-    background-color: black;
+    background-color: rgb(233, 230, 230);
     margin: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 5px 0px;
 }
 
-#nav-title{
+.navbar-brand{
+    color:#000000;
     font-family:'Cinzel Decorative', cursive;
 }
-a.nav-link{
-    color: #FCA311;
+
+.navbar-brand:hover{
+    color:#000000;
+    font-family:'Cinzel Decorative', cursive;
 }
+
+a.nav-link{
+    color:#000000;
+}
+
+a.nav-link:hover{
+    color:#FCA311;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color:grey;
+    background: url(https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-01-512.png) center;
+}
+
 
 #hero-title{
     width: 100%;

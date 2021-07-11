@@ -96,6 +96,7 @@ a.nav-link:hover{
 
 .services-title{
     font-family: 'Cinzel Decorative', cursive;
+    margin-top: 8vh;
     font-size: 10vw;
     text-align: center;
     text-shadow: 0.05rem 0.05rem #e5e5e5;
@@ -116,6 +117,7 @@ a.nav-link:hover{
     margin-right: auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    padding: 2vw;
 }
 
 #services-background-image{
@@ -131,25 +133,38 @@ a.nav-link:hover{
 
 .carousel-inner{
     margin: auto;
+    border-radius: 1rem;
+    box-shadow: #e5e5e5 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
 }
 
 .carousel-caption{
     height: 100%;
+    width: 70%;
 }
 
 .carousel-caption h5{
-    font-size: 6vw;
+    font-size: 5vw;
     color: #FCA311;
     text-shadow: 0.1rem 0.1rem #000000;
-
+    margin-top: 2vh;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .carousel-caption p{
     font-family: 'Lato', sans-serif;
-    height: 5vh;
+    height: 70%;
     font-size: 2vh;
     color: #FCA311;
-    text-shadow: 0.1rem 0.1rem #000000;
+    text-shadow: 0.05rem 0.05rem #000000;
+}
+
+.carousel-caption p .light{
+    font-family: 'Lato', sans-serif;
+    height: 70%;
+    font-size: 2vh;
+    color: #14213D;
+    text-shadow: 0.05rem 0.05rem #FCA311;
 }
 
 #practitioners{

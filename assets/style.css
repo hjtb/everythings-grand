@@ -112,7 +112,10 @@ a.nav-link:hover{
     background-color: #e5e5e5;
     border-radius: 0.1rem;
     box-shadow: #e5e5e5 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 #services-background-image{
@@ -124,6 +127,29 @@ a.nav-link:hover{
     opacity: 0.1;
     height:100vh;
     width:100%;
+}
+
+.carousel-inner{
+    margin: auto;
+}
+
+.carousel-caption{
+    height: 100%;
+}
+
+.carousel-caption h5{
+    font-size: 6vw;
+    color: #FCA311;
+    text-shadow: 0.1rem 0.1rem #000000;
+
+}
+
+.carousel-caption p{
+    font-family: 'Lato', sans-serif;
+    height: 5vh;
+    font-size: 2vh;
+    color: #FCA311;
+    text-shadow: 0.1rem 0.1rem #000000;
 }
 
 #practitioners{

@@ -148,9 +148,12 @@ a.nav-link:hover{
     width:100%;
 }
 
+.carousel-item{
+    height: 45vw;
+}
+
 #carousel-image{
-    opacity:0.5;
-    background-color: black;
+    opacity:0.5;    
 }
 
 .carousel-inner{
@@ -161,22 +164,24 @@ a.nav-link:hover{
 
 .carousel-caption{
     height: 100%;
-    width: 70%;
+    right: 5% !important;
+    left: 5% !important;
+    margin: auto;
+    width: 90%;
 }
 
 .carousel-caption h5{
-    font-size: 3vw;
+    font-size: 8vw;
     color: #FCA311;
     text-shadow: 0.1rem 0.1rem #000000;
     margin-top: 2vh;
-    padding:2vw;
+    padding-bottom:2vw;
     font-family: 'Cinzel Decorative', cursive;
 }
 
 .carousel-caption p{
     font-family: 'Lato', sans-serif;
-    height: 70%;
-    font-size: 2vh;
+    font-size: 1.7vh;
     color: #FCA311;
     text-shadow: 0.05rem 0.05rem #000000;
 }
@@ -231,9 +236,31 @@ footer li a:hover{
     .services-content{
         font-size: 1.5vw;
     }
+    .carousel-item{
+        height: 45vw;
+    }
+    .carousel-caption p{
+        font-size: 1.5vw;
+        color: #FCA311;
+        text-shadow: 0.05rem 0.05rem #000000;
+    }
 }
 @media only screen and (min-width: 575px) {
     .hero-background{
         height:100vh;
     }
+}
+@media only screen and (min-width: 765px) {
+    .hero-background{
+        height:100vh;
+    }
+    .carousel-caption h5{
+        font-size: 5vw;
+        color: #FCA311;
+        text-shadow: 0.1rem 0.1rem #000000;
+        margin-top: 2vh;
+        padding-bottom:2vw;
+        font-family: 'Cinzel Decorative', cursive;
+    }
+    
 }

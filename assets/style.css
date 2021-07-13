@@ -37,9 +37,17 @@ a.nav-link:hover{
     text-shadow: 0.05rem 0.05rem #808080;
 }
 
+.modal-content{
+    font-family: 'Lato', sans-serif;
+    color: #14213D;
+}
+
 .modal-header{
     background-color: #e5e5e5;
-    color: #14213D;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #FCA311 !important;
 }
 
 .hero-background{

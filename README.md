@@ -87,6 +87,9 @@ For the background image I went for a bright mountain top scene. The blue sky wi
 
 ### Bugs
 
+When I created the practitioners cards with the images the images were all different sizes so I resized them and set all with equal aspect ratios using GIMP photo editor but still they were different heights and the cards were temperamental too.
+
+
 ## **Credits**
 
 ### **Media and Content**

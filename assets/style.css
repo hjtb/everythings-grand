@@ -188,11 +188,6 @@ a.nav-link:hover{
     text-shadow: 0.01rem 0.01rem #e5e5e5;
 }
 
-#practitioners{
-    color: #14213D;
-    text-shadow: 0.05rem 0.05rem #000000;
-}
-
 #practitioners-title{
     font-family: 'Cinzel Decorative', cursive;
     color: #FCA311;
@@ -203,16 +198,25 @@ a.nav-link:hover{
     text-shadow: 0.05rem 0.05rem #e5e5e5; 
 }
 
-.practitioners-card{
-    background-color: #e5e5e5;
+#practitioners-card{
+    color: #e5e5e5;
+    background-color: #14213D;
 }
 
-.practitioners-card p{
+#practitioners-card p{
     color: #FCA311;
 }
 
-.practitioners-card-text-second{
-    display: none;
+.practitioners-card-testimonial{
+    font-style: italic;
+}
+
+#testimonial-icon{
+    color: #e5e5e5;
+}
+
+small{
+    color: #e5e5e5;
 }
 
 /* #practitioners-background-image{

@@ -89,6 +89,7 @@ For the background image I went for a bright mountain top scene. The blue sky wi
 
 When I created the practitioners cards with the images the images were all different sizes so I resized them and set all with equal aspect ratios using GIMP photo editor but still they were different heights and the cards were temperamental too.
 
+The background of the cards weren't all changing. Only the first cards background would respond to the css class targeting it.
 
 ## **Credits**
 

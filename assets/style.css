@@ -202,6 +202,10 @@ a.nav-link:hover{
     background-color: #14213D;
 }
 
+.practitioner-image{
+    border-radius: 30%;
+}
+
 #practitioners-card p{
     color: #FCA311;
 }

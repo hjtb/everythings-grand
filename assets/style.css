@@ -13,19 +13,20 @@ main{
     background: #14213D;
 }
 
-
+#logo{
+    width:40px;
+    height:40px;
+}
 
 .navbar-brand{
     color:#000000;
     font-family:'Cinzel Decorative', cursive;
     text-shadow: 0.1rem 0.1rem #A5AACA;
-
 }
 
 .navbar-brand:hover{
     color:#FCA311;
     text-shadow: 0.05rem 0.05rem #808080;
-
 }
 
 a.nav-link{

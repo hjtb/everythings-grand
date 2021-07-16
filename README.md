@@ -98,3 +98,6 @@ The background of the cards weren't all changing. Only the first cards backgroun
 ### **Languages, Libraries & Frameworks**
  
 ## **Deployment**
+I deployed this site using github pages. My mentor instructed me through the process.
+The steps involved included:
+ 

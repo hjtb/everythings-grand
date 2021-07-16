@@ -12,6 +12,9 @@ header{
 main{
     background: #14213D;
 }
+
+
+
 .navbar-brand{
     color:#000000;
     font-family:'Cinzel Decorative', cursive;
@@ -120,17 +123,7 @@ a.nav-link:hover{
     text-shadow: 0.05rem 0.05rem #e5e5e5;
 }
 
-.services-content{
-    font-family: 'Lato', sans-serif;
-    font-size: 2vh;
-    color: #14213D;
-    text-shadow: 0.02rem 0.02rem #000000;
-    padding: 3vw;
-}
-
 .services-card{
-    background-color: #e5e5e5;
-    border-radius: 2rem;
     box-shadow: #e5e5e5 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     margin-left: auto;
     margin-right: auto;
@@ -138,17 +131,16 @@ a.nav-link:hover{
     margin-bottom: 10vw;
 }
 
-/* #services-background-image{
-    background-image: url(images/services.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    opacity: 0.1;
-    height:100vh;
-    width:100%;
-} 
- */
+.services-content{
+    background-color: #14213D;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vh;
+    color: #FCA311;
+    text-shadow: 0.02rem 0.02rem #000000;
+    padding: 3vw;
+    margin-bottom: 0;
+}
+
 .carousel-item{
     height: 45vw;
 }
@@ -192,10 +184,15 @@ a.nav-link:hover{
     font-family: 'Cinzel Decorative', cursive;
     color: #FCA311;
     margin-top: 15vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
     font-size: 8vw;
     text-align: center;
     text-shadow: 0.05rem 0.05rem #e5e5e5; 
+}
+
+#practitioners-card-title{
+    color: #e5e5e5;
+    font-size: 2vh;
 }
 
 #practitioners-card{
@@ -218,18 +215,6 @@ a.nav-link:hover{
 small{
     color: #e5e5e5;
 }
-
-/* #practitioners-background-image{
-    background-image: url(images/practitioners.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    opacity: 0.15;
-    height:100vh;
-    width:100%;
-    z-index: 1;
-} */
 
 footer{
     height: 100px;
@@ -292,6 +277,12 @@ footer li a:hover{
         font-size: 1.8vw;
         padding: 2vw;
     }
+    #practitioners-card{
+        font-size: 2vw;
+    }
+    #practitioners-card-title{
+        font-size: 3vh;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -309,5 +300,13 @@ footer li a:hover{
     }
     .carousel-caption p{
         font-size: 1.5vw;
+    }
+    #practitioners-title{
+        font-size: 10vh;
+        padding: 2vw;
+        margin-bottom: 2vw;
+    }
+    #practitioners-card{
+        font-size: 1vw;
     }
 }

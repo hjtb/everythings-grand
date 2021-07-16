@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: rgb(233, 230, 230);
+    background-image: linear-gradient(to top right,#ffffff, #14213D99);
     margin: 0.5rem;
     border-radius: 0.5rem;
     box-shadow: 4px 4px 5px 0px;
@@ -47,10 +47,12 @@ a.nav-link:hover{
 
 .modal-header{
     background-color: #e5e5e5;
+    color: #14213D !important;
 }
 
 .btn-outline-secondary:hover{
     background-color: #FCA311 !important;
+    color: #14213D !important;
 }
 
 .hero-background{

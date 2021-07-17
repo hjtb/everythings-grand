@@ -1,6 +1,6 @@
 # **Everything's Grand Counselling**
 
-![multiple_screens_image](/workspace/wills_first_project/assets/images/different_screen_sizes.png)
+![multiple_screens_image](assets/images/different_screen_sizes.png)
 
 ## **Description** 
 

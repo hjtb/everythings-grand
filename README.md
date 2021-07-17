@@ -182,15 +182,15 @@ Both buttons work correctly and the modal is dismissed when they are clicked.
 
 For images I used a mixture of images from Pixabay and Unsplash
 
-[Unsplash](https://unsplash.com/) - Practitioner images
-[Pixabay](https://https://pixabay.com/) - Both hero images and the background images for the slides
+* [Unsplash](https://unsplash.com/) - Practitioner images
+* [Pixabay](https://https://pixabay.com/) - Both hero images and the background images for the slides
 
 ### **Languages, Libraries, Frameworks and Tools**
 
- * [HTML](https://en.wikipedia.org/wiki/HTML)
+* [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
- * [Font Awesome](https://fontawesome.com/)
+* [Font Awesome](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Bootstrap Icons](https://icons.getbootstrap.com/)
